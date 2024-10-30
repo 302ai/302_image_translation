@@ -1,0 +1,23 @@
+{
+  "about": {
+    "title": "AI画像翻訳について",
+    "trigger": {
+      "label": "ツール情報のポップアップを開く/閉じる"
+    }
+  },
+  "error_page": {
+    "reload": "再読み込み",
+    "title": "予期しないエラーが発生しました"
+  },
+  "footer": {
+    "copyright_content": "<LogoLink></LogoLink> によって運営",
+    "copyright_leading": "内容はAIによって生成されたものであり、参考のためのみにご利用ください"
+  },
+  "switch_language": "言語を切り替える",
+  "switch_theme": {
+    "dark": "夜間",
+    "light": "昼間",
+    "system": "システムに合わせる",
+    "toggle_theme": "テーマを切り替える"
+  }
+}
