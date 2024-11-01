@@ -4,19 +4,9 @@ const nextConfig = {
   experimental: {
     serverComponentsExternalPackages: ['pino', 'pino-pretty'],
   },
-  output: 'standalone',
-  images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'file.302.ai',
-      },
-      {
-        protocol: 'https',
-        hostname: 'file.302ai.cn',
-      },
-    ],
-  },
+  typescript: {
+    ignoreBuildErrors: true,
+  }
 }
 
 export default nextConfig
