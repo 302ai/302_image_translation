@@ -44,6 +44,8 @@ export default function Home({ params: { locale } }: { params: { locale: string 
   const [dataSource, setDataSource] = useState<{ [key: number]: IDataSource }>({});
   const [selectData, setSelectData] = useState({ textDirection: 'auto', targetLang: 'zh', });
 
+  const showBrand = process.env.NEXT_PUBLIC_SHOW_BRAND === "true";
+
   const TextDirection: { value: string, label: string }[] = [
     { value: 'auto', label: t('home:textDirection.auto') },
     { value: 'row', label: t('home:textDirection.row') },
@@ -337,14 +339,13 @@ export default function Home({ params: { locale } }: { params: { locale: string 
       </div>
       <div className='my-0 mx-auto pt-10 pb-5 w-full p-3 md:max-w-[1300px]'>
         <div className='flex items-center w-full justify-center lg:mb-16 mb-5'>
-          <Image alt='ai-302-logo' src={logo_302} quality={100} height={65} width={65} draggable={false} />
+          {
+            showBrand &&
+            <Image alt='ai-302-logo' src={logo_302} quality={100} height={65} width={65} draggable={false} />
+          }
           <div className='text-2xl ml-5 font-bold'>{t('home:title')}</div>
         </div>
         <div className='flex justify-center items-end flex-wrap'>
-          {/* <div className='p-3'>
-            <p className='text-xs mb-2'>{t('home:textDirection.title')}</p>
-            {onSelectBox('textDirection')}
-          </div> */}
           <div className='p-3'>
             <p className='text-xs mb-2 text-accent-foreground'>{t('home:targetLang.title')}</p>
             {onSelectBox('targetLang')}
@@ -422,7 +423,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
           </PhotoProvider>
         </div>
       </div>
-      <Footer className='pb-3' />
+      {showBrand && <Footer className='pb-3' />}
     </div >
   )
 }

@@ -51,7 +51,7 @@ export async function generateMetadata(
         },
         ja: {
           title: "AI画像翻訳",
-          description:"画像内のテキストをすばやく翻訳して置換する",
+          description: "画像内のテキストをすばやく翻訳して置換する",
           image: "/images/pt_jp_tool_logo.jpg",
           _id: '66d2de547e3b177ca1c3b495',
         },
@@ -102,6 +102,7 @@ export default function RootLayout({
   children: React.ReactNode
   params: { locale: string }
 }>) {
+  const showBrand = process.env.NEXT_PUBLIC_SHOW_BRAND === "true";
   return (
     <html lang={locale} dir={dir(locale)}>
       <head>
@@ -114,10 +115,12 @@ export default function RootLayout({
             <ErrorHandler />
             <Toolbar />
             {children}
-            <script
-              src='https://assets.salesmartly.com/js/project_177_61_1649762323.js'
-              async
-            />
+            {showBrand &&
+              <script
+                src='https://assets.salesmartly.com/js/project_177_61_1649762323.js'
+                async
+              />
+            }
           </Providers>
         </ClientOnly>
       </body>
