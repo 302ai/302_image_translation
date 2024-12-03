@@ -2,7 +2,7 @@
 
 <p align="center">AI图片翻译快速识别图片中的文字，并用大语言模型翻译成对应的语言，适合文档扫描件、漫画等场景使用。</p>
 
-<p align="center"><a href="https://302.ai/tools/word/" target="blank"><img src="https://file.302ai.cn/gpt/imgs/badge/21212.png" /></a></p >
+<p align="center"><a href="https://302.ai/tools/word/" target="blank"><img src="https://file.302ai.cn/gpt/imgs/github/302_badge.png" /></a></p >
 
 <p align="center"><a href="README zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
@@ -11,6 +11,7 @@
 
 
 ## 界面预览
+AI快速识别图片中的文字，并翻译成对应的语言。
 ![界面预览](docs/图片翻译1.png)
 
 ## 项目特性
