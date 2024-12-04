@@ -6,6 +6,7 @@
 
 <p align="center"><a href="README zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
+![インターフェースプレビュー](docs/AI图片翻译jp.png)
 
 [302.AI](https://302.ai)が提供する[AI画像翻訳](https://302.ai/tools/pt/)のオープンソース版です。
 302.AIに直接ログインすれば、コード不要・設定不要でオンライン版をご利用いただけます。
