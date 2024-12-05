@@ -8,7 +8,7 @@
 
 ![Interface Preview](docs/AI图片翻译en.png)
 
-This is the open-source version of [AI Image Translation](https://302.ai/tools/pt/) from [302.AI](https://302.ai).
+This is the open-source version of [AI Image Translation](https://302.ai/en/tools/pt/) from [302.AI](https://302.ai).
 You can directly log in to 302.AI to use the online version with zero code and zero configuration.
 Or modify this project according to your needs, input 302.AI's API KEY, and deploy it yourself.
 
