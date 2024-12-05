@@ -2,9 +2,9 @@
 
 <p align="center">AI 画像翻訳は、画像内の文字を迅速に認識し、大規模言語モデルを利用して対応する言語に翻訳することができます。ドキュメントのスキャン画像、漫画などのシーンでの使用に適しています。</p>
 
-<p align="center"><a href="https://302.ai/tools/word/" target="blank"><img src="https://file.302ai.cn/gpt/imgs/github/302_badge.png" /></a></p >
+<p align="center"><a href="https://302.ai/ja/tools/pt/" target="blank"><img src="https://file.302ai.cn/gpt/imgs/github/302_badge.png" /></a></p >
 
-<p align="center"><a href="README zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
+<p align="center"><a href="README_zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
 ![インターフェースプレビュー](docs/AI图片翻译jp.png)
 
