@@ -2,13 +2,13 @@
 
 <p align="center">AI 画像翻訳は、画像内の文字を迅速に認識し、大規模言語モデルを利用して対応する言語に翻訳することができます。ドキュメントのスキャン画像、漫画などのシーンでの使用に適しています。</p>
 
-<p align="center"><a href="https://302.ai/ja/tools/pt/" target="blank"><img src="https://file.302.ai/gpt/imgs/github/20250102/72a57c4263944b73bf521830878ae39a.png" /></a></p >
+<p align="center"><a href="https://302.ai/product/detail/39" target="blank"><img src="https://file.302.ai/gpt/imgs/github/20250102/72a57c4263944b73bf521830878ae39a.png" /></a></p >
 
 <p align="center"><a href="README_zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
 ![インターフェースプレビュー](docs/AI图片翻译jp.png)
 
-[302.AI](https://302.ai/ja/)が提供する[AI画像翻訳](https://302.ai/ja/tools/pt/)のオープンソース版です。
+[302.AI](https://302.ai/ja/)が提供する[AI画像翻訳](https://302.ai/product/detail/39)のオープンソース版です。
 302.AIに直接ログインすれば、コード不要・設定不要でオンライン版をご利用いただけます。
 また、このプロジェクトを自身のニーズに合わせてカスタマイズし、302.AIのAPI KEYを使用して独自にデプロイすることも可能です。
 
